@@ -17,9 +17,34 @@ const routes = [
     component: loadPage('AboutPage')
   },
   {
-    path: '/account',
-    name: 'Account',
-    component: loadPage('AccountPage'),
+    path: '/about',
+    name: 'About',
+    component: loadPage('AboutPage')
+  },
+  {
+    path: '/academy',
+    name: 'Academy Details',
+    component: loadPage('AcademyPage')
+  },
+  {
+    path: '/apothecary',
+    name: 'Apothecary Details',
+    component: loadPage('ApothecaryPage')
+  },
+  {
+    path: '/castle',
+    name: 'Castle',
+    component: loadPage('CastlePage')
+  },
+  {
+    path: '/guard',
+    name: 'Security Details',
+    component: loadPage('GuardPage')
+  },
+  {
+    path: '/Museum',
+    name: 'Museam Details',
+    component: loadPage('MuseumPage'),
     beforeEnter: authGuard
   }
 ]
