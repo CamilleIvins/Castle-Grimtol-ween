@@ -17,11 +17,6 @@ const routes = [
     component: loadPage('AboutPage')
   },
   {
-    path: '/about',
-    name: 'About',
-    component: loadPage('AboutPage')
-  },
-  {
     path: '/academy',
     name: 'Academy Details',
     component: loadPage('AcademyPage')
@@ -42,7 +37,7 @@ const routes = [
     component: loadPage('GuardPage')
   },
   {
-    path: '/Museum',
+    path: '/museum',
     name: 'Museam Details',
     component: loadPage('MuseumPage'),
     beforeEnter: authGuard

@@ -12,30 +12,49 @@
 
         <nav class="row justify-content-around gx-0">
           <div class="col-md-2 col-11 my-md-0 my-1 ">
-            <router-link :to="{ name: 'Castle', path: ('/castle') }">
+            <router-link :to="{ path: '/castle' }">
               <div class="btn btn-outline-light" style="width: 100%;">
                 Castle
               </div>
             </router-link>
           </div>
 
+          <div class=" col-md-2 col-11 my-md-0 my-1 ">
+            <router-link :to="{ path: '/museum' }">
+              <div class="btn btn-outline-light" style="width: 100%;">
+                Museum
+              </div>
+            </router-link>
+          </div>
 
-          <button class="btn col-md-2 col-11 my-md-0 my-1 btn-outline-light">
-            Museum
-          </button>
+          <div class=" col-md-2 col-11 my-md-0 my-1 ">
+            <router-link :to="{ path: '/apothecary' }">
+              <div class="btn btn-outline-light" style="width: 100%;">
+                Apothecary
+              </div>
+            </router-link>
 
-          <button class="btn col-md-2 col-11 my-md-0 my-1 btn-outline-light">
-            Apothecary
-          </button>
+          </div>
 
-          <button class="btn col-md-2 col-11 my-md-0 my-1 btn-outline-light">
-            Guard
-          </button>
+          <div class=" col-md-2 col-11 my-md-0 my-1 ">
+            <router-link :to="{ path: '/guard' }">
+              <div class="btn btn-outline-light" style="width: 100%;">
+                Guard
+              </div>
+            </router-link>
 
-          <button class="btn col-md-2 col-11 my-md-0 my-1 btn-outline-light">
-            Academy
+          </div>
 
-          </button>
+          <div class=" col-md-2 col-11 my-md-0 my-1 ">
+            <router-link :to="{ path: '/academy' }">
+              <div class="btn btn-outline-light" style="width: 100%;">
+                Academy
+
+              </div>
+            </router-link>
+
+          </div>
+
         </nav>
         <section class="">
 
@@ -104,8 +123,10 @@
 
 <script>
 
+
 export default {
   setup() {
+
     return {}
   }
 }
