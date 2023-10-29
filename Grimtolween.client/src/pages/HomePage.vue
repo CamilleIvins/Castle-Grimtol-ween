@@ -108,7 +108,7 @@
           </section>
 
         </section>
-        <img src="../assets/CG assets/img/castleGrimtolLogo.png" alt="" class="grimtol-welcome">
+        <img src="../assets/CGAssets/img/castleGrimtolLogo.png" alt="" class="grimtol-welcome">
         <div class="text-light sub-title my-2">We eagerly await your arrival</div>
 
 
