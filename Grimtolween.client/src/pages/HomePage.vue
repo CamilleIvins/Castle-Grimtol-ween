@@ -143,6 +143,10 @@ export default {
   right: 0;
 }
 
+.text-light {
+  font-family: 'Nosifer', sans-serif;
+}
+
 .grimtol-welcome {
   max-height: 30dvh;
   position: relative;

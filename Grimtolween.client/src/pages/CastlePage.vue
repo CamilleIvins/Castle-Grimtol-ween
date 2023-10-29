@@ -31,19 +31,19 @@
                 <div class="text-center my-3">
                     <h3>In order to accomodate a visit with the king, please let us know...</h3>
                 </div>
-                <div class="col-md-3 col-12">
+                <div class="col-md-3 col-12 mt-5">
                     <h5>
                         Do you know your blood type?
                     </h5>
                 </div>
 
-                <div class="col-md-3 col-12">
+                <div class="col-md-3 col-12 mt-5">
                     <h5>
                         Are you diabetic?
                     </h5>
                 </div>
 
-                <div class="col-md-3 col-12">
+                <div class="col-md-3 col-12 mt-5">
                     <h5>
                         Are you carrying any blood-borne diseases?
                     </h5>
@@ -80,6 +80,10 @@ export default {
 
 .page {
     min-height: 100dvh;
+}
+
+.text-light {
+    font-family: 'Nosifer', sans-serif;
 }
 
 .king-img {
