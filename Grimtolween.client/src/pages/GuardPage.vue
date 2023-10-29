@@ -36,6 +36,7 @@ export default {
     object-position: center;
     max-height: 30dvh;
     width: 100%;
+    filter: hue-rotate(70deg);
 
 }
 
