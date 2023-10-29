@@ -38,7 +38,7 @@ const routes = [
   },
   {
     path: '/museum',
-    name: 'Museam Details',
+    name: 'Museum Details',
     component: loadPage('MuseumPage'),
     beforeEnter: authGuard
   }

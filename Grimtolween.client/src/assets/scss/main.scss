@@ -4,7 +4,17 @@
 @import "./_utilities.scss";
 @import "./loaders.scss";
 
-body{
+:root {
+  --pink: (#db6cf1);
+  --fadedViolet: (#b945db);
+  --TCU: (#9f2dce);
+  --violet: (#3c0a66);
+  --darkTCU: (#6f196e);
+  --purpleRed: (#8e2273);
+
+}
+
+body {
   overscroll-behavior: none;
 }
 
@@ -30,6 +40,7 @@ select {
     &:valid {
       border: 1px solid $success;
     }
+
     &:invalid {
       border: 1px solid $danger;
     }

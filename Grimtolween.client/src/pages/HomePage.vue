@@ -2,7 +2,7 @@
   <section class="container-fluid">
     <section class="row">
       <div class="text-center px-0">
-        <img src="../assets/CG assets/img/lowerRuins.png" alt="Grimtol ruins" class="ruins">
+        <img src="../assets/CGAssets/img/lowerRuins.png" alt="Grimtol ruins" class="ruins">
         <div class="welcome sub-title text-light">
           Welcome
         </div>
@@ -33,7 +33,6 @@
                 Apothecary
               </div>
             </router-link>
-
           </div>
 
           <div class=" col-md-2 col-11 my-md-0 my-1 ">
@@ -42,17 +41,14 @@
                 Guard
               </div>
             </router-link>
-
           </div>
 
           <div class=" col-md-2 col-11 my-md-0 my-1 ">
             <router-link :to="{ path: '/academy' }">
               <div class="btn btn-outline-light" style="width: 100%;">
                 Academy
-
               </div>
             </router-link>
-
           </div>
 
         </nav>
